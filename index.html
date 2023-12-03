@@ -1,1 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FigmaLand</title>
+</head>
+<body style="background-color: gainsboro;">
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="top-bar" style="display: flex;">
+                    <nav class="nav">
+                        <ul class="nav__list" style="list-style: none; display: flex; gap: 41px; margin-right: 20px;">
+                            <li class="nav__item">
+                                <a href="#home" class="nav__link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#product" class="nav__link">Product</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#pricing" class="nav__link">Pricing</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
 
+                    <a href="#">
+                        <img style="background-color: #000;" src="images/top-bar-logo.svg" alt="figma-land-logo">
+                    </a>
+
+                    <div class="top-bar__social-media-link">
+                        <a href="https://twitter.com/">
+                            <img style="background-color: #000;" src="images/twitter-logo.svg" alt="twitter-logo"> <!-- Could be 'background-image' into css -->
+                        </a>
+
+                        <a href="https://www.facebook.com/">
+                            <img style="background-color: #000;" src="images/facebook-logo.svg" alt="facebook-logo"> <!-- Could be 'background-image' into css -->
+                        </a>
+
+                        <a href="https://www.linkedin.com/">
+                            <img style="background-color: #000;" src="images/linkedin-logo.svg" alt="linkedin-logo"> <!-- Could be 'background-image' into css -->
+                        </a>
+                    </div>
+                </div>
+
+                <div class="header__bottom">
+                    <h1 class="header__title">
+                        The best products
+                        <br>
+                        start with Figma
+                    </h1>
+                    <p class="header__bottom--text">
+                        Most calendars are designed for teams. Slate is designed for freelancers
+                    </p>
+                </div>
+
+                <div style="padding: 16px 0px; width: 236px;" class="header__button">
+                    <a style="cursor: pointer; display: flex; text-decoration: none; border-radius: 35px; background: #2091F9; height: 52px; justify-content: center; align-items: center; font-size: 20px; line-height: 20px; color: #fff;" href="#">Try For Free</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home-top">
+                <h2 class="section--title">Features</h2>
+                <p>
+                    Most calendars are designed for teams.
+                    <br>
+                    Slate is designed for freelancers
+                </p>
+            </div>
+
+            <div class="home-bottom" style="display: flex;">
+                <figure class="home--bottom__item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="images/sec-logo1.svg" alt="sec-logo1">
+                    <h3>
+                        OpenType features
+                        <br>
+                        Variable fonts
+                    </h3>
+                    <p>
+                        Slate helps you see how 
+                        many more days you need 
+                        to work to reach your 
+                        financial goal.
+                    </p>
+                </figure>
+
+                <figure class="home--bottom__item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="images/sec-logo2.svg" alt="sec-logo2">
+                    <h3>Design with real data</h3>
+                    <p>
+                        Slate helps you see how 
+                        many more days you need 
+                        to work to reach your 
+                        financial goal.
+                    </p>
+                </figure>
+
+                <figure class="home--bottom__item" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="images/sec-logo3.svg" alt="sec-logo3">
+                    <h3>
+                        Fastest way to
+                        <br>
+                        take action
+                    </h3>
+                    <p>
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal.
+                    </p>
+                </figure>
+            </div>
+
+            <div class="home--screen">
+                <img src="images/screen-photo.png" alt="screen-photo" style="width: 1177px; height: 658px;">
+            </div>
+        </section>
+
+        <section class="product" id="product">
+            <div class="product-section__content" style="display: flex;">
+                <div class="product-text">
+                    <h2>
+                        Fastest way to
+                        <br>
+                        organize
+                    </h2>
+                    <p>
+                        Most calendars are designed for teams.
+                        <br>
+                        Slate is designed for freelancers
+                    </p>
+
+                    <div style="padding: 16px 0px; width: 236px;" class="header__button">
+                        <a style="cursor: pointer; display: flex; text-decoration: none; border-radius: 35px; background: #2091F9; height: 60px; justify-content: center; align-items: center; font-size: 20px; line-height: 28px; color: #fff;" href="#">Try For Free</a>
+                    </div>
+                </div>
+
+                <div class="product-photo">
+                    <img src="images/mac-photo.png" alt="mac-photo" style="width: 625px; height: 350px;">
+                </div>
+            </div>
+        </section>
+
+        <section class="product">
+            <div class="product-section__content" style="display: flex;">
+                <div class="product-photo">
+                    <img src="images/undraw_newsletter_photo.png" alt="undraw_newsletter_photo" style="width: 677px; height: 514px;">
+                </div>
+
+                <div class="product-section__content-item" style="display: flex; flex-direction: column;">
+                    <div class="product-text" style="display: flex; flex-direction: column;">
+                        <p>At your fingertips</p>
+                        <h2>
+                            Lightning fast
+                            <br>
+                            prototyping
+                        </h2>
+                    </div>
+                    <div class="product-form" style="display: flex; flex-direction: column;">
+                        <h4>Subscribe to our Newsletter</h4>
+                        <p>Available exclusivery on Figmaland</p>
+                        <form action="#">
+                            <input type="email" name="your-email" placeholder="Your Email">
+                            <button type="submit" class="button-blue" style="padding: 15px 38px; width: 172px; height: 58px;">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section></section>
+        <section></section>
+        <section></section>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
